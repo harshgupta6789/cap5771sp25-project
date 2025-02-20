@@ -1,0 +1,155 @@
+Dataset 1: Data/flights_sample_3m.csv
+Source: kaggle
+Link: https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-dataset-2019-2023?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fpatrickzel%2Fflight-delay-and-cancellation-dataset-2019-2023%2Fversions%2F7%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8AuLNK2TuwVNoq0UgqCcqcZhG5v6GdY7GC9EFNn2_2UJht5ARQxxCQd6PJJfELjvwQeNtQ6hRptJmZvr6FTqYLbxbpZ50uZ4i3MejrT8tacTJf5xIqjVkdnmzCIKx_Hka6ooYdTF_v--YzmCd6U7N7dlPwwti6kTFUbDJhCVXMiHPE5dK9BaWQ5ccO3E8h_Wyq-wBFtQtpyGf9JIOSuH8IVySXMxbZ9SGO7NRgU43MmSvCp0bZbnmyKFw1qGBQ3t1wQZuIUjsDkl3pIMGJ3_0BAnGiEkdcg8-0OVjOodsU4qcDgkSggRHV2Mk_GD_S88pe7t1wU2IBu1FXFADJNBR-LlAzs&DisplayName=Harsh+Gupta&select=flights_sample_3m.csv
+File size: 614.14 MB
+Owner: U.S. Department of Transportation's (DOT) Bureau of Transportation Statistic
+Description: Airline Flight Delay and Cancellation Data, August 2019 - August 2023
+Dimenstions: 32 columns x 3000000 rows
+
+Following are the columns:
+
+FL_DATE -> Flight Date (yyyymmdd)
+AIRLINE -> Airline company name
+AIRLINE_DOT -> Airline DOT name assigned by US DOT
+AIRLINE_CODE -> Unique Carrier Code
+DOT_CODE -> An identification number assigned by US DOT to identify a unique airline (carrier). 
+FL_NUMBER -> Flight Number
+ORIGIN -> Origin Airport
+ORIGIN_CITY -> Origin Airport City Name
+DEST -> Destination Airport
+DEST_CITY -> Destination Airport, City Name
+CRS_DEP_TIME -> CRS Departure Time (local time: hhmm)
+DEP_TIME -> Actual Departure Time (local time: hhmm)
+DEP_DELAY -> Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.
+TAXI_OUT -> Taxi Out Time, in Minutes
+WHEELS_OFF -> Wheels Off Time (local time: hhmm)
+WHEELS_ON -> Wheels On Time (local time: hhmm)
+TAXI_IN -> Taxi In Time, in Minutes
+CRS_ARR_TIME -> CRS Arrival Time (local time: hhmm)
+ARR_TIME -> Actual Arrival Time (local time: hhmm)
+ARR_DELAY -> Difference in minutes between scheduled and actual arrival time. Early arrivals show negative numbers.
+CANCELLED -> Cancelled Flight Indicator (1=Yes)
+CANCELLATION_CODE -> Specifies The Reason For Cancellation
+DIVERTED -> Diverted Flight Indicator (1=Yes)
+CRS_ELAPSED_TIME -> CRS Elapsed Time of Flight, in Minutes
+ELAPSED_TIME -> Elapsed Time of Flight, in Minutes
+AIR_TIME -> Flight Time, in Minutes
+DISTANCE -> Distance between airports (miles)
+DELAY_DUE_CARRIER -> Carrier Delay, in Minutes
+DELAY_DUE_WEATHER -> Weather Delay, in Minutes
+DELAY_DUE_NAS -> National Air System Delay, in Minutes
+DELAY_DUE_SECURITY -> Security Delay, in Minutes
+DELAY_DUE_LATE_AIRCRAFT -> Late Aircraft Delay, in Minutes
+
+****************************************************************
+
+Dataset 2: Data/2018.csv
+Source: kaggle
+Link: https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2018.csv
+File size: 892.99 MB
+Owner: U.S. Department of Transportation's (DOT) Bureau of Transportation Statistic
+Description: Airline Flight Delay and Cancellation Data, August 2018 - August 2019
+Dimenstions: 28 columns x 3000000 rows
+
+Following are the columns:
+
+****************************************************************
+
+Dataset 3: Data/full_data_flightdelay.csv
+Source: kaggle
+Link: https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations?select=full_data_flightdelay.csv
+File size: 1.37 GB
+Owner: Bureau of Transportation statistics
+Description: This is a dataset with detailed airline, weather, airport and employment information.
+Dimenstions: 26 columns x 6489063 rows
+
+Following are the columns:
+
+MONTH -> Month of flight
+DAY_OF_WEEK -> Day of flight
+DEP_DEL15 -> TARGET Binary of a departure delay over 15 minutes (1 is yes)
+DEP_TIME_BLK -> Distance group to be flown by departing aircraft
+DISTANCE_GROUP -> Distance group to be flown by departing aircraft
+SEGMENT_NUMBER -> The segment that this tail number is on for the day
+CONCURRENT_FLIGHTS -> Concurrent flights leaving from the airport in the same departure block
+NUMBER_OF_SEATS -> Number of seats on the aircraft
+CARRIER_NAME -> Carrier
+AIRPORT_FLIGHTS_MONTH -> Avg Airport Flights per Month
+AIRLINE_FLIGHTS_MONTH -> Avg Airline Flights per Month
+AIRLINE_AIRPORT_FLIGHTS_MONTH -> Avg Flights per month for Airline AND Airport
+AVG_MONTHLY_PASS_AIRPORT -> Avg Passengers for the departing airport for the month
+AVG_MONTHLY_PASS_AIRLINE -> Avg Passengers for airline for month
+FLT_ATTENDANTS_PER_PASS -> Flight attendants per passenger for airline
+GROUND_SERV_PER_PASS -> Ground service employees (service desk) per passenger for airline
+PLANE_AGE -> Age of departing aircraft
+DEPARTING_AIRPORT -> Departing Airport
+LATITUDE -> Latitude of departing airport
+LONGITUDE -> Longitude of departing airport
+PREVIOUS_AIRPORT -> Previous airport that aircraft departed from
+PRCP -> Inches of precipitation for day
+SNOW -> Inches of snowfall for day
+SNWD -> Inches of snow on ground for day
+TMAX -> Max temperature for day
+AWND -> Max wind speed for day
+
+****************************************************************
+
+Dataset 4: Data/Fleet Data.csv
+Source: kaggle
+Link: https://www.kaggle.com/datasets/traceyvanp/airlinefleet
+File size: 102.27 kB
+Owner: Planespotters.net, Wikipedia
+Description: The top 100+ airlines and their fleet specifics
+Dimenstions: 11 columns x 1584 rows
+
+Following are the columns:
+
+Parent Airline -> i.e. International Airlines Group (IAG)
+Airline -> i.e. Iberia, Aer Lingus, British Airways…etc.
+Aircraft Type -> Manufacturer & Model
+Current -> Quantity of airplanes in Operation
+Future -> Quantity of airplanes on order
+Order -> Quantity airplanes on order
+Unit Cost -> Average unit cost ($M) of Aircraft Type
+Total Cost -> Current quantity * Unit Cost ($M)
+Average Age -> Average age of "Current" airplanes by "Aircraft Type"
+
+****************************************************************
+
+Dataset 5: Data/itineraries-min-100k.csv
+Source: kaggle
+Link: https://www.kaggle.com/datasets/justinmitchel/flightprices-min?select=itineraries-min-100k.csv
+File size: 37.95 MB
+Owner: N/A
+Description: Contains purchasable tickets found on Expedia between 2022-04-16 and 2022-10-05, to/from the following airports: ATL, DFW, DEN, ORD, LAX, CLT, MIA, JFK, EWR, SFO, DTW, BOS, PHL, LGA, IAD, OAK
+Dimenstions: 27 columns x 100000 rows
+
+Following are the columns:
+
+legId -> An identifier for the flight.
+searchDate -> The date (YYYY-MM-DD) on which this entry was taken from Expedia.
+flightDate -> The date (YYYY-MM-DD) of the flight.
+startingAirport -> Three-character IATA airport code for the initial location.
+destinationAirport -> Three-character IATA airport code for the arrival location.
+fareBasisCode -> The fare basis code.
+travelDuration -> The travel duration in hours and minutes.
+elapsedDays -> The number of elapsed days (usually 0).
+isBasicEconomy -> Boolean for whether the ticket is for basic economy.
+isRefundable -> Boolean for whether the ticket is refundable.
+isNonStop -> Boolean for whether the flight is non-stop.
+baseFare -> The price of the ticket (in USD).
+totalFare -> The price of the ticket (in USD) including taxes and other fees.
+seatsRemaining -> Integer for the number of seats remaining.
+totalTravelDistance -> The total travel distance in miles. This data is sometimes missing.
+segmentsDepartureTimeEpochSeconds -> String containing the departure time (Unix time) for each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsDepartureTimeRaw -> String containing the departure time (ISO 8601 format: YYYY-MM-DDThh:mm:ss.000±[hh]:00) for each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsArrivalTimeEpochSeconds -> String containing the arrival time (Unix time) for each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsArrivalTimeRaw -> String containing the arrival time (ISO 8601 format: YYYY-MM-DDThh:mm:ss.000±[hh]:00) for each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsArrivalAirportCode -> String containing the IATA airport code for the arrival location for each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsDepartureAirportCode -> String containing the IATA airport code for the departure location for each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsAirlineName -> String containing the name of the airline that services each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsAirlineCode -> String containing the two-letter airline code that services each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsEquipmentDescription -> String containing the type of airplane used for each leg of the trip (e.g. "Airbus A321" or "Boeing 737-800"). The entries for each of the legs are separated by '||'.
+segmentsDurationInSeconds -> String containing the duration of the flight (in seconds) for each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsDistance -> String containing the distance traveled (in miles) for each leg of the trip. The entries for each of the legs are separated by '||'.
+segmentsCabinCode -> String containing the cabin for each leg of the trip (e.g. "coach"). The entries for each of the legs are separated by '||'."
