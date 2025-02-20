@@ -49,7 +49,7 @@ Link: https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellati
 File size: 892.99 MB
 Owner: U.S. Department of Transportation's (DOT) Bureau of Transportation Statistic
 Description: Airline Flight Delay and Cancellation Data, August 2018 - August 2019
-Dimenstions: 28 columns x 3000000 rows
+Dimenstions: 28 columns x 7213448 rows
 
 Following are the columns:
 
