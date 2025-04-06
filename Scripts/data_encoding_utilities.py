@@ -1,7 +1,7 @@
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 
-def encode_categorical_columns(df, categorical_cols, ohe_threshold=10):
+def encode_categorical_columns(df, categorical_cols, ohe_threshold=3):
     
     df_encoded = df.copy()
     label_encoders = {}
