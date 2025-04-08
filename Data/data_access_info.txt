@@ -15,3 +15,6 @@ Link: https://catalog.data.gov/dataset/consumer-airfare-report-table-5-detailed-
 
 Dataset 6: Airline IATA code
 Link: https://en.wikipedia.org/wiki/List_of_airline_codes
+
+Dataset 7: US Domestic Flights Delay Prediction (2013 - 2018)
+Link: https://www.kaggle.com/datasets/gabrielluizone/us-domestic-flights-delay-prediction-2013-2018
