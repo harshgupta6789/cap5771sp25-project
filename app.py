@@ -11,7 +11,7 @@ import seaborn as sns
 # Base directory (ensures correct file locations)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 db_path = os.path.join(BASE_DIR, 'history.db')
-data_path = os.path.join(BASE_DIR, 'clean.csv')
+data_path = os.path.join(BASE_DIR, 'processed.csv')
 model_path = os.path.join(BASE_DIR, 'xgb_pca_pipeline_manual.pkl')
 
 # Load resources
