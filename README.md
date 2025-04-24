@@ -19,3 +19,38 @@
 - Run the individual *_eda notebooks to preprocess and EDA individual datasets
 - Run the production merge notebook to join the datasets
 - Run the production eda notebook to visualize the joined dataset
+
+# Presentation
+
+Presentation Video URL: https://drive.google.com/file/d/1cMTVvTEBltpU7w7afSgjFiwKaIIGqWcu/view?usp=share_link
+
+Presentation PPT URL: https://docs.google.com/presentation/d/1IjdVWy3IgBzawYqLkyzi9TYJzfo3OrrTfs7Ctsm6AUg/edit?usp=share_link
+
+Tool Demo URL: https://drive.google.com/file/d/1-lWoTndmbrZ44ByeRMWkrfJ7BG9ZO4OK/view?usp=share_link
+
+## Team Contribution
+
+### Why it was a 2-person project
+
+This project required the integration of six diverse datasets, including international and domestic flight records, storm events, airfare reports, and airline fleet data. We engineered over 20 domain-specific features related to time, weather, and traffic. The team evaluated multiple machine learning models, including deep learning, and developed a full-featured Streamlit dashboard with both real-time prediction and historical insight visualization. Given the technical scope and design effort required, the workload was effectively split between two members.
+
+### Harsh Gupta
+
+- Led the integration of flight, weather, and airline fleet datasets.
+- Focused on time-based and flight traffic features, including:
+  - Departure/arrival hour extraction
+  - Time-of-day binning
+  - Flight distance categorization
+  - Route-specific delay metrics
+- Built and evaluated Random Forest and FCNN models.
+- Developed and implemented the **Prediction tab (Tab 1)** of the dashboard, including user input handling, preprocessing, model inference, and database storage.
+
+### Muthukumaran Ulaganathan
+
+- Focused on cleaning and linking storm events and airfare datasets.
+- Engineered storm impact features, including:
+  - Total injuries and deaths
+  - Severe weather binary flag
+  - Damage cost aggregation
+- Built and tuned Logistic Regression and XGBoost models.
+- Designed and implemented the **History & Insights tab (Tab 2)**, including visualizations (pie charts, line plots, heatmaps), performance metrics, and interactive filters for trend exploration.
