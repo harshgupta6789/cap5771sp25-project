@@ -54,3 +54,5 @@ This project required the integration of six diverse datasets, including interna
   - Damage cost aggregation
 - Built and tuned Logistic Regression and XGBoost models.
 - Designed and implemented the **History & Insights tab (Tab 2)**, including visualizations (pie charts, line plots, heatmaps), performance metrics, and interactive filters for trend exploration.
+
+We have deployed the app using AWS for live demo. Here is the link: https://cap5771sp25-ids-muthu-harsh.streamlit.app/
