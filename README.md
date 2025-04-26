@@ -19,6 +19,10 @@
 - Run the individual *_eda notebooks to preprocess and EDA individual datasets
 - Run the production merge notebook to join the datasets
 - Run the production eda notebook to visualize the joined dataset
+- Run feature_engineering.ipynb
+- Run model_evaluation_and_insights.ipynb to generate, evaluate and get insights from the model
+- Run dashboard.py using the following command:
+```streamlit run dashboard.py```
 
 # Presentation
 
